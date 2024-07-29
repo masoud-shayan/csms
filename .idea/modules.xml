@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authenticationservice/authenticationservice.iml" filepath="$PROJECT_DIR$/authenticationservice/authenticationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/csms.iml" filepath="$PROJECT_DIR$/.idea/csms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transactionservice/transactionservice.iml" filepath="$PROJECT_DIR$/transactionservice/transactionservice.iml" />
+    </modules>
+  </component>
+</project>

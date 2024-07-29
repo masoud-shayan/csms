@@ -1,0 +1,10 @@
+com\chargepoint\csms\common\type\message\base\AuthorizationRequestMessage$AuthorizationRequestMessageBuilderImpl.class
+com\chargepoint\csms\common\type\message\base\EventMessage.class
+com\chargepoint\csms\common\type\message\base\AuthorizationRequestMessage.class
+com\chargepoint\csms\common\type\message\base\AuthorizationResponseMessage$AuthorizationResponseMessageBuilder.class
+com\chargepoint\csms\common\type\message\base\AuthorizationResponseMessage$AuthorizationResponseMessageBuilderImpl.class
+com\chargepoint\csms\common\type\message\base\AuthorizationResponseMessage.class
+com\chargepoint\csms\common\type\message\payload\AuthorizationStatusResponse.class
+com\chargepoint\csms\common\type\message\base\AuthorizationRequestMessage$AuthorizationRequestMessageBuilder.class
+com\chargepoint\csms\common\type\message\base\EventMessage$EventMessageBuilder.class
+com\chargepoint\csms\common\type\message\payload\AuthorizationRequest.class

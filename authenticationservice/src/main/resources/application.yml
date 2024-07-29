@@ -1,0 +1,24 @@
+server:
+  port: 8060
+
+spring:
+  application:
+    name: authentication-service
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      bootstrap-servers: localhost:19092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    producer:
+      bootstrap-servers: localhost:19092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+
+
+kafka:
+  topic:
+    request: "AuthenticationRequests"
