@@ -25,8 +25,9 @@ with me :)
 To provide a clear understanding of the data structure, here are the JSON representations for the request and response
 bodies:
 
+AuthorizeReqDto: 
 ```json
-AuthorizeReqDto: {
+{
 "stationUuid": "string",
 "driverIdentifier": {
 "id": "string"
@@ -34,8 +35,9 @@ AuthorizeReqDto: {
 }
 ```
 
+AuthorizeResDto: 
 ```json
-AuthorizeResDto: {
+{
 "authorizationStatus": "string"
 }
 ```
