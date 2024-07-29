@@ -28,9 +28,9 @@ bodies:
 AuthorizeReqDto: 
 ```json
 {
-"stationUuid": "string",
-"driverIdentifier": {
-"id": "string"
+   "stationUuid": "string",
+   "driverIdentifier": {
+      "id": "string"
 }
 }
 ```
@@ -38,7 +38,7 @@ AuthorizeReqDto:
 AuthorizeResDto: 
 ```json
 {
-"authorizationStatus": "string"
+   "authorizationStatus": "string"
 }
 ```
 
